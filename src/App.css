@@ -1,0 +1,70 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result-container {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  font-size: 24px;
+  /*resize: vertical;*/
+  /*box-sizing: border-box;*/
+
+  display: flex;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  color: #555;
+}
+
+.result {
+  width: 100%;
+}
+
+.textarea-container {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+}
+
+textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  background-color: transparent;
+  padding: 10px;
+  font-size: 24px;
+  resize: vertical;
+  box-sizing: border-box;
+
+  display: block;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  color: #555;
+}
+
+.textarea textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+}
+
+.textarea textarea:focus {
+  border-bottom: 2px solid #333;
+}
+
