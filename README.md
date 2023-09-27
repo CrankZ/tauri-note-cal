@@ -1,8 +1,14 @@
 # 文本计算器
 
-一个简单的文本计算器。
+一个简单的文本计算器，支持在线和主流桌面平台，文件体积仅5MB。
 
 ![image-20230927175441422](README.assets/image-20230927175441422.png)
+
+## 使用
+
+在线：https://tauri-note-cal.vercel.app/
+
+下载：https://github.com/CrankZ/tauri-note-cal/releases
 
 ## 功能
 
@@ -15,6 +21,12 @@
 - 支持求和、平均
 
 ## 开发
+
+安装
+
+```
+yarn install
+```
 
 运行
 
