@@ -25,19 +25,19 @@
 安装
 
 ```
-yarn install
+pnpm install
 ```
 
 运行
 
 ```
-yarn tauri dev
+pnpm tauri dev
 ```
 
 编译
 
 ```
-yarn tauri build
+pnpm tauri build
 ```
 
 ## 技术栈
