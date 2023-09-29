@@ -6,7 +6,7 @@
 
 ## 使用
 
-在线：https://tauri-note-cal.vercel.app/
+在线：https://tauri-note-cal.pages.dev/
 
 下载：https://github.com/CrankZ/tauri-note-cal/releases
 
